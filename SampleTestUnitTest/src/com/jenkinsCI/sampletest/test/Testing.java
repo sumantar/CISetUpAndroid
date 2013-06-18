@@ -4,9 +4,6 @@
 package com.jenkinsCI.sampletest.test;
 
 
-import org.junit.After;
-import org.junit.Before;
-
 import android.test.AndroidTestCase;
 import android.test.suitebuilder.annotation.SmallTest;
 
