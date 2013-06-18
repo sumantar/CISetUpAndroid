@@ -26,18 +26,18 @@ public class Testing extends AndroidTestCase {
 	/* (non-Javadoc)
 	 * @see android.test.AndroidTestCase#setUp()
 	 */
-	@Before
-	protected void setUp() throws Exception {
-		super.setUp();
-	}
-
-	/* (non-Javadoc)
-	 * @see android.test.AndroidTestCase#tearDown()
-	 */
-	@After
-	protected void tearDown() throws Exception {
-		super.tearDown();
-	}
+//	@Before
+//	protected void setUp() throws Exception {
+//		super.setUp();
+//	}
+//
+//	/* (non-Javadoc)
+//	 * @see android.test.AndroidTestCase#tearDown()
+//	 */
+//	@After
+//	protected void tearDown() throws Exception {
+//		super.tearDown();
+//	}
 
 	@SmallTest
 	public void test() {
