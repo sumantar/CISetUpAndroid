@@ -68,7 +68,7 @@
     -->
     <import file="custom_rules.xml" optional="true" />
 	
-    <taskdef name="findbugs" classpath="/Users/sumanta/findbugs/lib/findbugs-ant.jar" classname="edu.umd.cs.findbugs.anttask.FindBugsTask"/>
+    <taskdef name="findbugs" classpath="/usr/local/bin/findbugs-ant.jar" classname="edu.umd.cs.findbugs.anttask.FindBugsTask"/>
 
 	<target name="findbugs">
 		<mkdir dir="reports" />
