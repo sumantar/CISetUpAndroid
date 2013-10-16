@@ -68,11 +68,11 @@
     -->
     <import file="custom_rules.xml" optional="true" />
 	
-    <taskdef name="findbugs" classpath="/Users/sumanta/findbugs/lib/findbugs-ant.jar" classname="edu.umd.cs.findbugs.anttask.FindBugsTask"/>
+    <taskdef name="findbugs" classpath="/usr/local/findbugs/lib/findbugs-ant.jar" classname="edu.umd.cs.findbugs.anttask.FindBugsTask"/>
 
 	<target name="findbugs">
 		<mkdir dir="reports" />
-		<findbugs home="/Users/sumanta/findbugs" output="xml" outputFile="reports/findbugs.xml" excludeFilter="findbugs-exclude.xml">
+		<findbugs home="/usr/local/findbugs" output="xml" outputFile="reports/findbugs.xml" excludeFilter="findbugs-exclude.xml">
 			<auxClasspath path="${android.jar}" />
 			<class location="${out.dir}" />
 		</findbugs>
